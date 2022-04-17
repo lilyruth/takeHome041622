@@ -139,7 +139,7 @@ h3 {
 }
 
 .footer {
- height: 15.5vh;
+ height: 18vh;
  width: 100vw;
  background: var(--background);
  font-family: square-peg-regular;
@@ -163,7 +163,7 @@ h3 {
 @media screen and (max-width: 600px) {
   
   .header {
-   height: 15vh;
+   height: 21vh;
   }
  
   .header h1 {
@@ -177,7 +177,7 @@ h3 {
   }
   
   .content {
-   height: 70.5vh;
+   height: 58vh;
    width: 90vw;
   }
   .table {
@@ -198,7 +198,7 @@ h3 {
   }
 
   .footer {
-   height: 6vh;
+   height: 13vh;
    font-size: 1.5rem;
   }
 }
@@ -206,5 +206,8 @@ h3 {
 @media screen and (max-width: 300px) {
  td {
   font-size: 1rem;
+ }
+ .footer {
+   height: 9vh;
  }
 }
